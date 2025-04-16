@@ -11,21 +11,9 @@ For downloading the Whisper model, please run download_whisper.py.
 ### 2. Change data directory
 Change the data path at paths.conf
 
-### 3. Run baseline
-```bash
-bash run_baseline.sh
-```
+### 3. Preprocessing
 
-DATASET `jdd`, `jdd_synthetic` denotes the JDD and SYN datasets. For the experiments on the SYN dataset:
-```bash
-bash run_baseline_syn.sh
-```
-For the experiments on the In-The_wild dataset:
-```bash
-bash run_baseline_inthewild.sh
-```
-
-### 4.Run CADD
+### 4. Run CADD
 ```bash
 bash run_context.sh
 ```
@@ -46,4 +34,19 @@ bash run_bost.sh
 ### Configurations
 You can modify the yaml file at `configs` folder in order to change the configurations of the models and training.
 The trained model can be found at our huggingface page, [CADD](https://huggingface.co/collections/gcyzsl/cadd-models-67a0eb4e83c3565727a8f9d4).
+
+
+### Baselines
+```bash
+bash run_baseline.sh
+```
+
+DATASET `jdd`, `jdd_synthetic` denotes the JDD and SYN datasets. For the experiments on the SYN dataset:
+```bash
+bash run_baseline_syn.sh
+```
+For the experiments on the In-The_wild dataset:
+```bash
+bash run_baseline_inthewild.sh
+```
 
