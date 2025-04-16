@@ -1,0 +1,13 @@
+data:
+  name: jdd_boost
+model:
+  class: rawnet3
+  id: rawnet3
+  parameters: {}
+training:
+  batch_size: 16
+  init_weights: ''
+  max_epochs: 30
+  optimzer:
+    lr: 0.001
+    weight_decay: 5.0e-05

@@ -1,0 +1,16 @@
+data:
+  name: jdd_synthetic
+model:
+  class: lcnn
+  id: lfcc_lcnn
+  parameters:
+    frontend_algorithm:
+    - lfcc
+    input_channels: 1
+training:
+  batch_size: 16
+  init_weights: ''
+  max_epochs: 30
+  optimzer:
+    lr: 0.0001
+    weight_decay: 0.0001

@@ -1,0 +1,19 @@
+data:
+  name: jdd_boost_context
+model:
+  class: lfcc_mfcc_lcnn_context
+  id: lfcc_mfcc_lcnn_context
+  parameters:
+    context: ct
+    frontend_algorithm:
+    - lfcc
+    - mfcc
+    input_channels: 2
+    embedding_dim: 100
+training:
+  batch_size: 16
+  init_weights: ''
+  max_epochs: 30
+  optimzer:
+    lr: 0.0001
+    weight_decay: 0.0001

@@ -1,0 +1,17 @@
+data:
+  name: in_the_wild
+model:
+  class: whisper_frontend_lcnn
+  id: whisper_mfcc_lcnn
+  parameters:
+    freeze_encoder: true
+    frontend_algorithm:
+    - mfcc
+    input_channels: 2
+training:
+  batch_size: 16
+  init_weights: ''
+  max_epochs: 20
+  optimzer:
+    lr: 0.0001
+    weight_decay: 0.0001

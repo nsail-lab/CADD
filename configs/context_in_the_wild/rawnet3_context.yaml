@@ -1,0 +1,15 @@
+data:
+  name: in_the_wild_context
+model:
+  class: rawnet3_context
+  id: rawnet3_context
+  parameters:
+    context: ct
+    embedding_dim: 100
+training:
+  batch_size: 16
+  init_weights: ''
+  max_epochs: 20
+  optimzer:
+    lr: 0.001
+    weight_decay: 5.0e-05
