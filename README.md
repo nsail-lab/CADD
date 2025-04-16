@@ -26,7 +26,7 @@ For the experiments on the In-The_wild dataset:
 ```bash
 bash run_context_inthewild.sh
 ```
-For our Boost settong:
+For our Boost setting:
 ```bash
 bash run_bost.sh
 ```
