@@ -6,10 +6,10 @@ Copyright © 2025 by Northwestern University. All Rights Reserved.
 pip install -r requirments.txt
 ```
 
-For downloading the Whisper model, please run download_whisper.py.
+For downloading the Whisper model, please run `download_whisper.py`.
 
 ### 2. Change data directory
-Change the data path at paths.conf
+Change the data path at `paths.conf`.
 
 ### 3. Preprocessing
 
