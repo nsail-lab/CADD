@@ -42,7 +42,8 @@ For our Boost settong:
 ```bash
 bash run_bost.sh
 ```
-You can modify the yaml file at `configs` folder in order to change the configurations of the models and training, 
 
-The trained model can be found at our huggingface page, CADD[https://huggingface.co/collections/gcyzsl/cadd-models-67a0eb4e83c3565727a8f9d4].
+### Configurations
+You can modify the yaml file at `configs` folder in order to change the configurations of the models and training.
+The trained model can be found at our huggingface page, [CADD](https://huggingface.co/collections/gcyzsl/cadd-models-67a0eb4e83c3565727a8f9d4).
 
